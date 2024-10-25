@@ -21,7 +21,7 @@ public class FollowWapypoints : MonoBehaviour
         wps = wpManager.GetComponent<WPManager>().waypoints;
         g = wpManager.GetComponent<WPManager>().graph;
         currentNode = wps[0];
-        Invoke("GoToRuin", 2);
+        //Invoke("GoToRuin", 2);
     }
 
     public void GoToHeli()
